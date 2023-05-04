@@ -20,3 +20,5 @@ if __name__ == "__main__":
     """
 
     args = docopt(usage, sys.argv, help=True, version="Y a su barco le llamó Libertad", options_first=False)
+
+    print(args["<name>"])
